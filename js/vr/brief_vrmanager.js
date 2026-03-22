@@ -42,9 +42,10 @@ window.VRManager = (function() {
 
     self.vrReady
       .then(function() {
-          //self.VRstart();
+          self.VRstart();
         }, function(){
           console.log('*** VR Not ready')
+          self.VRstart();
           //self.NoVRstart();
         });
 
