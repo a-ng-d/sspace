@@ -74,7 +74,6 @@ window.VRManager = (function() {
           self.VRstart();
         }, function(){
           console.log('*** VR Not ready')
-          self.VRstart();
           //self.NoVRstart();
         });
 
